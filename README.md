@@ -9,7 +9,7 @@ You just need to clone the repository. I have used QMake for building system but
 
 ## Usage
 
-###Read from file
+1) Reading input characters from file
 
 If you want to read characters from your File, you just need to change these lines:
 
@@ -20,15 +20,15 @@ bool you_wanna_read_from_file = true;
 ```
 
 One of the important thing is decision of InputEnum
-1) EachLetter
-2) Bigram
+1) EachLetter    -> A, B, A , D , B etc.
+2) Bigram		 -> AB, BA, CD, DD etc.
 
 If you want to process each letter change:
 ```
 fillFrequency(tFileRead,InputEnum::EachLetter);
 ```
 
-###Test input
+2) Giving directly frequency map to the tree
 
 If you want to try just giving sample frequencies, do
 
