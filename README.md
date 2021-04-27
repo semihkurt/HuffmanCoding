@@ -1,14 +1,15 @@
 # Huffman Coding C++ Implementation
 
-A Huffman code is a particular type of optimal prefix code that is commonly used for lossless data compression. [ref](https://en.wikipedia.org/wiki/Huffman_coding)
+A Huffman code is a particular type of optimal prefix code that is commonly used for lossless data compression.
+Huffman Coding](https://en.wikipedia.org/wiki/Huffman_coding)
 
 ## Installation
 
-You just need to clone the repository. I have used QMake for building system but it doesn't matter whatever you choose because it plainly uses only C libraries.
+You just need to clone the repository. I have used QMake for building system but it doesn't matter whatever you choose because it plainly uses only CPP libraries.
 
 ## Usage
 
-#Read from file
+###Read from file
 
 If you want to read characters from your File, you just need to change these lines:
 
@@ -27,7 +28,7 @@ If you want to process each letter change:
 fillFrequency(tFileRead,InputEnum::EachLetter);
 ```
 
-#Test input
+###Test input
 
 If you want to try just giving sample frequencies, do
 
