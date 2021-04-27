@@ -1,7 +1,7 @@
 # Huffman Coding C++ Implementation
 
 A Huffman code is a particular type of optimal prefix code that is commonly used for lossless data compression.
-Huffman Coding](https://en.wikipedia.org/wiki/Huffman_coding)
+[Huffman Coding](https://en.wikipedia.org/wiki/Huffman_coding)
 
 ## Installation
 
